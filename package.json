@@ -2,9 +2,9 @@
   "name": "backend_api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    "build": ""
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,8 @@
     "express": "^4.17.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "node": "17.7.1"
   },
   "devDependencies": {
     "typescript": "^4.6.2"
